@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.25233795.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.28fdc35c.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.28fdc35c.chunk.js.map",
+    "runtime-main.js": "/portfolio-react/static/js/runtime-main.85abd95c.js",
+    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.85abd95c.js.map",
+    "static/css/2.818011ed.chunk.css": "/portfolio-react/static/css/2.818011ed.chunk.css",
+    "static/js/2.ea6478da.chunk.js": "/portfolio-react/static/js/2.ea6478da.chunk.js",
+    "static/js/2.ea6478da.chunk.js.map": "/portfolio-react/static/js/2.ea6478da.chunk.js.map",
+    "static/js/3.ed284ef6.chunk.js": "/portfolio-react/static/js/3.ed284ef6.chunk.js",
+    "static/js/3.ed284ef6.chunk.js.map": "/portfolio-react/static/js/3.ed284ef6.chunk.js.map",
+    "index.html": "/portfolio-react/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/portfolio-react/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.25233795.chunk.css.map": "/portfolio-react/static/css/main.25233795.chunk.css.map",
+    "static/js/2.ea6478da.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.ea6478da.chunk.js.LICENSE.txt",
+    "static/media/Passcodegenerator.928027e6.png": "/portfolio-react/static/media/Passcodegenerator.928027e6.png",
+    "static/media/Resume.d89da151.pdf": "/portfolio-react/static/media/Resume.d89da151.pdf",
+    "static/media/App.css": "/portfolio-react/static/media/computer_programming.cb4524e8.jpg",
+    "static/media/employee.f9e28433.png": "/portfolio-react/static/media/employee.f9e28433.png",
+    "static/media/explorer.f8db2d44.png": "/portfolio-react/static/media/explorer.f8db2d44.png",
+    "static/media/game.82c94dbd.png": "/portfolio-react/static/media/game.82c94dbd.png",
+    "static/media/lovariables.129adb4e.jpg": "/portfolio-react/static/media/lovariables.129adb4e.jpg",
+    "static/media/me.c267cf3f.jpg": "/portfolio-react/static/media/me.c267cf3f.jpg",
+    "static/media/resume.1cdbd630.jpg": "/portfolio-react/static/media/resume.1cdbd630.jpg",
+    "static/media/signup.26986cc9.PNG": "/portfolio-react/static/media/signup.26986cc9.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.85abd95c.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.ea6478da.chunk.js",
+    "static/css/main.25233795.chunk.css",
+    "static/js/main.28fdc35c.chunk.js"
+  ]
+}
