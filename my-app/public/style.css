@@ -1,0 +1,194 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #0b2c3d;
+}
+
+.header {
+  display: flex;
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #0b2c3d;
+  color: #ffffff;
+  flex-wrap: wrap;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  /* Align the child elements to the right side of the parent */
+  justify-content: flex-end;
+  background-color: #0b2c3d;
+}
+
+.header h1 {
+  display: inline-block;
+  float: left;
+  font-size: 48px;
+}
+
+.header div {
+  padding-top: 25px;
+  margin-right: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+.header div ul {
+  list-style-type: none;
+}
+
+.header div ul li {
+  display: inline-block;
+  float: right;
+  margin-left: 25px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+.title {
+  height: 200px;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  padding: 50px;
+  background-image: url("./images/computer_programming.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+section {
+  margin: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+
+  /* @media screen and (max-width: 300px)  {
+       margin: 5px;
+    } */
+}
+div.project>div> h3 {
+  font-size: 3rem;
+}
+#work > div.project {
+  width: 100%;
+  padding: 20px 0px;
+}
+
+.leftovervariables img {
+  max-width: 300px;
+  align-self: flex-end;
+}
+
+#about-me {
+  margin-bottom: 20px;
+  padding: 50px;
+  font-size: 80px;
+  flex: 2 1 400px;
+}
+
+.coming-soon {
+  display: inline-block;
+  margin: 20px;
+  padding: 50px;
+  max-height: 250px;
+  font-family: bold, "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  color: #010005;
+  font-size: 45px;
+  background-image: url("./images/comingsoon.jfif");
+  background-repeat: repeat;
+  background-size: content-box;
+  border: 50px rgb(0, 0, 8);
+  flex: 2 1 200px;
+}
+
+.resume {
+  object-fit: contain;
+  padding: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+  font-size: 36px;
+  flex: 2 1 200px;
+  flex-wrap: wrap;
+  object-position: inherit;
+}
+
+.contact-me {
+  margin-bottom: 20px;
+  padding: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+  font-size: 36px;
+}
+
+.coming-soon img {
+  max-height: 200px;
+  object-fit: contain;
+  flex: 2 1 200px;
+}
+
+.resume img {
+  height: 200px;
+  flex: 2 1 200px;
+  object-fit: inherit;
+}
+
+.about-me h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.about-me img {
+  max-height: 200px;
+  flex: 2 1 200px;
+}
+
+.resume h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+footer {
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  align-content: center;
+  position: fixed bottom;
+  bottom: 0;
+}
+
+.footer h2 {
+  font-size: 20px;
+}
