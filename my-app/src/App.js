@@ -1,6 +1,10 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import me from 'C:/Git/portfolio-react/my-app/src/images/me.jpg'
+import techbook from 'C:/Git/portfolio-react/my-app/src/images/signup.PNG'
+import resume from 'C:/Git/portfolio-react/my-app/src/images/resume.jpg'
+import Generator from 'C:/Git/portfolio-react/my-app/src/images/Passcodegenerator.png'
 
 class App extends React.Component {
   render() {
@@ -33,7 +37,7 @@ class App extends React.Component {
         <div className="content">
           <section id="about-me">
             <img
-              src="./images/me.jpg"
+              src={me}
               className="float-right"
               alt="Todd Kelly"
             />
@@ -146,7 +150,7 @@ class App extends React.Component {
               </div>
               <div className="col-sm-12 col-md-6 d-flex flex-column">
                 <img
-                  src="C:\Git\PassWord-Generator\Passcodegenerator.png"
+                  src={Generator}
                   alt="Password Gernerator being used"
                 />
                 <p>
@@ -182,10 +186,8 @@ class App extends React.Component {
                 </div>
               </div>
               <div className="col-sm-12 col-md-6 d-flex flex-column">
-                <img
-                  src="C:\Git\techbook\assets\signup.PNG"
-                  alt="Techbook Login Page"
-                />
+                <img src={techbook} alt="Techbook Login Page"/>
+
                 <p>
                   This is a project worked on during my time in the Carleton
                   University Coding Boot Camp. Techbook allows people from the
@@ -195,7 +197,6 @@ class App extends React.Component {
                 </p>
               </div>
             </div>
-            
             <div className="project d-flex leftovervariables row">
               <div
                 className="
@@ -222,10 +223,7 @@ class App extends React.Component {
                 </div>
               </div>
               <div className="col-sm-12 col-md-6 d-flex flex-column">
-                <img
-                  src="C:\Git\PassWord-Generator\Passcodegenerator.png"
-                  alt="Password Gernerator being used"
-                />
+                <img src="../public/images/employee.png" alt="Password Generator being used"/>
                 <p>
                   This application enables a user to create their own employee
                   tracker using a basic Node.js application. A user is able to
@@ -236,10 +234,48 @@ class App extends React.Component {
                 </p>
               </div>
             </div>
+            <div className="project d-flex leftovervariables row">
+              <div
+                className="
+              col-sm-12 col-md-6
+              d-flex
+              flex-column
+              justify-content-between
+            "
+              >
+                <h3>Explorer</h3>
+                <div className="d-flex flex-column">
+                  <a href="https://explorer-guide.herokuapp.com/">
+                    <u>Deployed Link: https://explorer-guide.herokuapp.com/</u>
+                  </a>
+                  <a href="https://github.com/DACK-OF-ALL-TRADES/explorer.git">
+                    <u>
+                      Repo: https://github.com/DACK-OF-ALL-TRADES/explorer.git
+                    </u>
+                  </a>
+                </div>
+              </div>
+              <div className="col-sm-12 col-md-6 d-flex flex-column">
+                <img
+                  src="my-app\public\images\explorer.png"
+                  alt="Explorer Landing Page"
+                />
+                <p>
+                  Explorer has been created to help finalize your next travel
+                  destination. Finding your dream location has never been so
+                  easy... You merely need to log in or sign up, create your
+                  profile, answer a few questions, and then you are good to go.
+                  It happens that at times you like more than one place, to
+                  tackle such a situation you also have the option of saving
+                  cities of your choice and finalizing a place later from your
+                  saved list.
+                </p>
+              </div>
+            </div>
           </section>
 
           <section id="resume" className="resume">
-            <img src="./images/resume.jpg" alt="Resume Pages" />
+            <img src={resume} alt="Resume Pages" />
             <h2>
               Resume :{" "}
               <a href="Resume.pdf">
