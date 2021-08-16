@@ -6,7 +6,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-    <div class="header">
+    <div className="header">
       <h1>Todd Kelly</h1>
       <div>
         <ul>
@@ -30,9 +30,9 @@ class App extends React.Component {
       </div>
     </div>
 
-    <div class="content">
+    <div className="content">
       <section id="about-me">
-        <img src="./images/me.jpg" class="float-right" />
+        <img src="./images/me.jpg" className="float-right" />
         <h3>About Me</h3>
         <p>
           I am a carpenter turned developer. I am attending Carleton Univerity's
@@ -40,13 +40,13 @@ class App extends React.Component {
         </p>
       </section>
 
-      <section id="work" class="mb-3 p-5 d-flex flex-column flex-wrap">
+      <section id="work" className="mb-3 p-5 d-flex flex-column flex-wrap">
         <h2>Work</h2>
         <p>These are some examples of my work.</p>
 
-        <div class="project d-flex leftovervariables row">
+        <div className="project d-flex leftovervariables row">
           <div
-            class="
+            className="
               col-sm-12 col-md-6
               d-flex
               flex-column
@@ -54,7 +54,7 @@ class App extends React.Component {
             "
           >
             <h3>LeftOver Variables-project</h3>
-            <div class="d-flex flex-column">
+            <div className="d-flex flex-column">
               <a href="https://toddkelly.github.io/left-over-variables/"
                 ><u
                   >Deployed Link:
@@ -69,7 +69,7 @@ class App extends React.Component {
               >
             </div>
           </div>
-          <div class="col-sm-12 col-md-6 d-flex flex-column">
+          <div className="col-sm-12 col-md-6 d-flex flex-column">
             <img src="./images/lovariables.jpg" />
             <p>
               This is the first group project that I participated in during my
@@ -80,9 +80,9 @@ class App extends React.Component {
         </div>
         https://github.com/ToddKelly/Code-Quiz.git
         https://toddkelly.github.io/Code-Quiz/
-        <div class="project d-flex leftovervariables row">
+        <div className="project d-flex leftovervariables row">
           <div
-            class="
+            className="
               col-sm-12 col-md-6
               d-flex
               flex-column
@@ -90,7 +90,7 @@ class App extends React.Component {
             "
           >
             <h3>Code Quiz</h3>
-            <div class="d-flex flex-column">
+            <div className="d-flex flex-column">
               <a href="https://toddkelly.github.io/Code-Quiz/"
               ><u
                 >Deployed Link:
@@ -104,7 +104,7 @@ class App extends React.Component {
             >
             </div>
           </div>
-          <div class="col-sm-12 col-md-6 d-flex flex-column">
+          <div className="col-sm-12 col-md-6 d-flex flex-column">
             <img src="C:\Git\Code-Quiz\images\game.png" />
             <p>
               Code Quiz: This application alows a user to complete a timed
@@ -119,9 +119,9 @@ class App extends React.Component {
           </div>
         </div>
 
-        <div class="project d-flex leftovervariables row">
+        <div className="project d-flex leftovervariables row">
           <div
-            class="
+            className="
               col-sm-12 col-md-6
               d-flex
               flex-column
@@ -129,7 +129,7 @@ class App extends React.Component {
             "
           >
             <h3>Password Generator</h3>
-            <div class="d-flex flex-column">
+            <div className="d-flex flex-column">
               <a href="https://toddkelly.github.io/PassWord-Generator/"
                 ><u
                   >Deployed Link:
@@ -143,7 +143,7 @@ class App extends React.Component {
               >
             </div>
           </div>
-          <div class="col-sm-12 col-md-6 d-flex flex-column">
+          <div className="col-sm-12 col-md-6 d-flex flex-column">
             <img src="C:\Git\PassWord-Generator\Passcodegenerator.png" />
             <p>
               Pass Word Generator:This application is a Password Generator which
@@ -153,9 +153,9 @@ class App extends React.Component {
           </div>
         </div>
 
-        <div class="project d-flex leftovervariables row">
+        <div className="project d-flex leftovervariables row">
           <div
-            class="
+            className="
               col-sm-12 col-md-6
               d-flex
               flex-column
@@ -163,7 +163,7 @@ class App extends React.Component {
             "
           >
             <h3>Techbook</h3>
-            <div class="d-flex flex-column">
+            <div className="d-flex flex-column">
               <a href="https://techbook-organization.github.io/techbook/"
                 ><u
                   >Deployed Link:
@@ -178,7 +178,7 @@ class App extends React.Component {
               >
             </div>
           </div>
-          <div class="col-sm-12 col-md-6 d-flex flex-column">
+          <div className="col-sm-12 col-md-6 d-flex flex-column">
             <img src="C:\Git\techbook\assets\signup.PNG" />
             <p>
               This is a project worked on during my time in the Carleton
@@ -191,7 +191,7 @@ class App extends React.Component {
         </div>
       </section>
 
-      <section id="resume" class="resume">
+      <section id="resume" className="resume">
         <img src="./images/resume.jpg" />
         <h2>
           Resume : <a href="Resume.pdf"><u>Deployed Link</u></a>
@@ -201,7 +201,7 @@ class App extends React.Component {
     </div>
 
     <footer>
-      <div id="contact-me" class="contact-me">
+      <div id="contact-me" className="contact-me">
         <h3>Contact Me</h3>
         <p>Phone: (613)298-3933</p>
         <p>
