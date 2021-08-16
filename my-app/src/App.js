@@ -1,10 +1,10 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import me from 'C:/Git/portfolio-react/my-app/src/images/me.jpg'
 import techbook from 'C:/Git/portfolio-react/my-app/src/images/signup.PNG'
 import resume from 'C:/Git/portfolio-react/my-app/src/images/resume.jpg'
 import Generator from 'C:/Git/portfolio-react/my-app/src/images/Passcodegenerator.png'
+import lov from 'C:/Git/portfolio-react/my-app/src/images/lovariables.jpg'
 
 class App extends React.Component {
   render() {
@@ -77,7 +77,7 @@ class App extends React.Component {
                 </div>
               </div>
               <div className="col-sm-12 col-md-6 d-flex flex-column">
-                <img src="./images/lovariables.jpg" alt="Recipie Page" />
+                <img src={lov} alt="Recipie Page" />
                 <p>
                   This is the first group project that I participated in during
                   my time in the Carleton University's Full Stack Development
