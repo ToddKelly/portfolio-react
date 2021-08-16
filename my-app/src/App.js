@@ -1,10 +1,14 @@
 import React from "react";
 import "./App.css";
-import me from 'C:/Git/portfolio-react/my-app/src/images/me.jpg'
-import techbook from 'C:/Git/portfolio-react/my-app/src/images/signup.PNG'
-import resume from 'C:/Git/portfolio-react/my-app/src/images/resume.jpg'
-import Generator from 'C:/Git/portfolio-react/my-app/src/images/Passcodegenerator.png'
-import lov from 'C:/Git/portfolio-react/my-app/src/images/lovariables.jpg'
+import me from "../src/images/me.jpg";
+import techbook from "../src/images/signup.PNG";
+import resume from "../src/images/resume.jpg";
+import Generator from "../src/images/Passcodegenerator.png";
+import lov from "../src/images/lovariables.jpg";
+import quiz from "../src/images/game.png";
+import employee from "../src/images/employee.png";
+import explorer from "../src/images/explorer.png";
+import resumedoc from "../src/Resume.pdf";
 
 class App extends React.Component {
   render() {
@@ -36,15 +40,13 @@ class App extends React.Component {
 
         <div className="content">
           <section id="about-me">
-            <img
-              src={me}
-              className="float-right"
-              alt="Todd Kelly"
-            />
+            <img src={me} className="float-right" alt="Todd Kelly" />
             <h3>About Me</h3>
             <p>
-              I am a carpenter turned developer. I am attending Carleton
+              I am a carpenter turned developer. I have just completed Carleton
               Univerity's Coding Boot Camp to become a Full Stack Web Developer.
+              My goal is to become a junior developer and begin to advance my
+              skills.
             </p>
           </section>
 
@@ -79,14 +81,21 @@ class App extends React.Component {
               <div className="col-sm-12 col-md-6 d-flex flex-column">
                 <img src={lov} alt="Recipie Page" />
                 <p>
-                  This is the first group project that I participated in during
-                  my time in the Carleton University's Full Stack Development
-                  Boot Camp.
+                  A web application that will allow a user to: Enter, store and
+                  maintain grocery items from their fridge and pantry. Track
+                  expiry dates . Provide the option to use these grocery items
+                  to search and find delicious recipes that utilize these
+                  ingredients. Review nutritional information on the grocery
+                  items. Save a recipe to a favorites page to be referenced later.
+
+                  Objectives are to reduce food waste by using items you already have
+                  on hand. Reduce food waste by tracking expiration dates on
+                  items Eat delicious meals using the recipes found. Eat well by
+                  providing nutritional details on grocery items
                 </p>
               </div>
             </div>
-            https://github.com/ToddKelly/Code-Quiz.git
-            https://toddkelly.github.io/Code-Quiz/
+
             <div className="project d-flex leftovervariables row">
               <div
                 className="
@@ -107,10 +116,7 @@ class App extends React.Component {
                 </div>
               </div>
               <div className="col-sm-12 col-md-6 d-flex flex-column">
-                <img
-                  src="C:\Git\Code-Quiz\images\game.png"
-                  alt="Code Quiz Deployed"
-                />
+                <img src={quiz} alt="Code Quiz Deployed" />
                 <p>
                   Code Quiz: This application alows a user to complete a timed
                   multiple choice quiz. When the user enters a question
@@ -149,10 +155,7 @@ class App extends React.Component {
                 </div>
               </div>
               <div className="col-sm-12 col-md-6 d-flex flex-column">
-                <img
-                  src={Generator}
-                  alt="Password Gernerator being used"
-                />
+                <img src={Generator} alt="Password Gernerator being used" />
                 <p>
                   Pass Word Generator:This application is a Password Generator
                   which creates a random password and returns it to the user
@@ -186,7 +189,7 @@ class App extends React.Component {
                 </div>
               </div>
               <div className="col-sm-12 col-md-6 d-flex flex-column">
-                <img src={techbook} alt="Techbook Login Page"/>
+                <img src={techbook} alt="Techbook Login Page" />
 
                 <p>
                   This is a project worked on during my time in the Carleton
@@ -223,7 +226,7 @@ class App extends React.Component {
                 </div>
               </div>
               <div className="col-sm-12 col-md-6 d-flex flex-column">
-                <img src="../public/images/employee.png" alt="Password Generator being used"/>
+                <img src={employee} alt="Password Generator being used" />
                 <p>
                   This application enables a user to create their own employee
                   tracker using a basic Node.js application. A user is able to
@@ -256,10 +259,7 @@ class App extends React.Component {
                 </div>
               </div>
               <div className="col-sm-12 col-md-6 d-flex flex-column">
-                <img
-                  src="my-app\public\images\explorer.png"
-                  alt="Explorer Landing Page"
-                />
+                <img src={explorer} alt="Explorer Landing Page" />
                 <p>
                   Explorer has been created to help finalize your next travel
                   destination. Finding your dream location has never been so
@@ -277,8 +277,8 @@ class App extends React.Component {
           <section id="resume" className="resume">
             <img src={resume} alt="Resume Pages" />
             <h2>
-              Resume :{" "}
-              <a href="Resume.pdf">
+              Resume :{}
+              <a href={resumedoc}>
                 <u>Deployed Link</u>
               </a>
             </h2>
