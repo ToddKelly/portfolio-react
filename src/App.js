@@ -8,7 +8,7 @@ import lov from "../src/images/lovariables.jpg";
 import quiz from "../src/images/game.png";
 import employee from "../src/images/employee.png";
 import explorer from "../src/images/explorer.png";
-import resumedoc from "../src/Resume.pdf";
+import resumedoc from "../src/src\todd-kelly-cv_2021.pdf";
 
 class App extends React.Component {
   render() {
