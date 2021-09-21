@@ -8,7 +8,7 @@ import lov from "../src/images/lovariables.jpg";
 import quiz from "../src/images/game.png";
 import employee from "../src/images/employee.png";
 import explorer from "../src/images/explorer.png";
-import resumedoc from "../src/src\todd-kelly-cv_2021.pdf";
+import resumedoc from "../src/todd-kelly-cv_2021.pdf";
 
 class App extends React.Component {
   render() {
@@ -86,12 +86,11 @@ class App extends React.Component {
                   expiry dates . Provide the option to use these grocery items
                   to search and find delicious recipes that utilize these
                   ingredients. Review nutritional information on the grocery
-                  items. Save a recipe to a favorites page to be referenced later.
-
-                  Objectives are to reduce food waste by using items you already have
-                  on hand. Reduce food waste by tracking expiration dates on
-                  items Eat delicious meals using the recipes found. Eat well by
-                  providing nutritional details on grocery items
+                  items. Save a recipe to a favorites page to be referenced
+                  later. Objectives are to reduce food waste by using items you
+                  already have on hand. Reduce food waste by tracking expiration
+                  dates on items Eat delicious meals using the recipes found.
+                  Eat well by providing nutritional details on grocery items
                 </p>
               </div>
             </div>
