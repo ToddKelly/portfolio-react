@@ -43,7 +43,7 @@ class App extends React.Component {
             <img src={me} className="float-right" alt="Todd Kelly" />
             <h3>About Me</h3>
             <p>
-              I am a carpenter turned developer. I have just completed Carleton
+              I am a carpenter turned developer. I have completed Carleton
               Univerity's Coding Boot Camp to become a Full Stack Web Developer.
               My goal is to become a junior developer and begin to advance my
               skills.
@@ -89,8 +89,8 @@ class App extends React.Component {
                   items. Save a recipe to a favorites page to be referenced
                   later. Objectives are to reduce food waste by using items you
                   already have on hand. Reduce food waste by tracking expiration
-                  dates on items Eat delicious meals using the recipes found.
-                  Eat well by providing nutritional details on grocery items
+                  dates on items. Eat delicious meals using the recipes found.
+                  Eat well by providing nutritional details on grocery items.
                 </p>
               </div>
             </div>
